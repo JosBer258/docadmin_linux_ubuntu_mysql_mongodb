@@ -37,6 +37,9 @@ sudo nano /etc/fstab
 ```
 UUID=tu-codigo-uuid-aqui  /home/mysql  xfs  defaults  0  2
 ```
+```
+UUID=tu-codigo-uuid-aqui  /home/mysql  ext4  defaults  0  2
+```
 4. Prueba el montaje sin reiniciar:
 ```
 sudo mount -a
